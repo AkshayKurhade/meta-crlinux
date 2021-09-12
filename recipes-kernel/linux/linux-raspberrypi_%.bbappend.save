@@ -1,0 +1,4 @@
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+SRC_URI +="file:
+PACKAGE_ARCH = "${MACHINE_ARCH}"
+KERNEL_DEVICETREE += overlays/rpi-addi9036.dtbo
